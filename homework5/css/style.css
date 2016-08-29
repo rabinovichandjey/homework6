@@ -1,0 +1,165 @@
+@font-face {
+   font-family: 'signika_negativeregular';
+   src: url('../fonts/signikanegative-regular-webfont.eot');
+   src: url('../fonts/signikanegative-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/signikanegative-regular-webfont.woff2') format('woff2'),
+        url('../fonts/signikanegative-regular-webfont.woff') format('woff'),
+        url('../fonts/signikanegative-regular-webfont.ttf') format('truetype'),
+        url('../fonts/signikanegative-regular-webfont.svg#signika_negativeregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+body {
+  background-color: #282828;
+}
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 1220px;
+  height: 1060px;
+  margin: 0 auto;
+}
+.heder {
+  width: 1220px;
+  height: 35px;
+  background: #07508f;
+  background: -moz-linear-gradient(left,  #07508f 0%, #074e8b 100%, #7db9e8 100%);
+  background: -webkit-linear-gradient(left,  #07508f 0%,#074e8b 100%,#7db9e8 100%);
+  background: linear-gradient(to right,  #07508f 0%,#074e8b 100%,#7db9e8 100%);
+}
+.menu1 {
+  margin-left: 470px;
+}
+.nav li {
+  float: left;
+  margin-top: 10px;
+}
+.nav a {
+  font-family: 'signika_negativeregular';
+  padding: 9px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #60b5ed;
+}
+.menu1 a:hover {
+  background-color: #4eabda;
+  color: #d9eaf5;
+}
+.Minhas a {
+  position: relative;
+  overflow: hidden;
+  padding-left: 35px;
+}
+.menu2 a {
+  color: #dde2eb;
+}
+.menu2 a:hover {
+  background-color: #4eabda;
+}
+.border {
+  position: absolute;
+  top: 2px;
+  left: 843px;
+}
+.flag {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 7px;
+  left: 10px;
+}
+.background img {
+  width: 1220px;
+  height: 1025px;
+}
+.blackbox1 {
+  position: absolute;
+  top: 250px;
+  left: 345px;
+  width: 560px;
+  height: 60px;
+  background: rgba(1, 0, 6, 0.5);
+}
+.Cadastre {
+  font-size: 24px;
+  padding-top: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+.blackbox2 {
+  position: absolute;
+  top: 312px;
+  left: 345px;
+  width: 560px;
+  height: 550px;
+  background: rgba(1, 0, 6, 0.5);
+}
+.facebookbox {
+  margin-top: 35px;
+  margin-left: 140px;
+}
+.linebox {
+  margin-top: 21px;
+  margin-left: 141px;
+}
+.OU {
+  font-family: 'signika_negativeregular';
+  position: absolute;
+  color: #8e8e8e;
+  top: 99px;
+  left:269px;
+}
+.inputbox {
+  margin-top: 30px;
+  margin-left: 141px;
+}
+.inputbox input:focus {
+  color: #d3d7e1;
+  box-shadow: 0px 0px 23px 4px #1b5288;
+  background-color: #1b5288;
+}
+.inputbox input {
+  width: 250px;
+  height: 15px;
+  padding: 10px;
+  padding-left: 16px;
+  font-family: 'signika_negativeregular';
+  color: #cccccc;
+  background-color: black;
+  border: 0px;
+  border-bottom: 1px solid #484847;
+}
+.inputbox form {
+  margin-bottom: 15px;
+}
+.checkbox {
+  margin-top: 5px;
+  margin-left: 138px;
+  font-family: 'signika_negativeregular';
+  color: #cccccc;
+}
+.batenbox {
+  margin-top: 20px;
+  margin-left: 200px;
+}
+.batenbox input {
+  font-family: 'signika_negativeregular';
+  font-size: 14px;
+  text-align: center;
+  width: 150px;
+  height: 35px;
+  color: #ffffff;
+  border: 2px solid #4eabda;
+  border-radius: 4px;
+  background: #4eabda;
+  background: -moz-linear-gradient(top,  #4eabda 0%, #2e7ac4 100%, #7db9e8 100%);
+  background: -webkit-linear-gradient(top,  #4eabda 0%,#2e7ac4 100%,#7db9e8 100%);
+  background: linear-gradient(to bottom,  #4eabda 0%,#2e7ac4 100%,#7db9e8 100%);
+}
+.kopirayd {
+  font-family: 'signika_negativeregular';
+  margin-top: 22px;
+  text-align: center;
+  font-size: 11px;
+  color: #afaeab;
+}
